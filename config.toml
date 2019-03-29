@@ -20,8 +20,8 @@ disqusShortname = "hannibalDisqus" # Enable or disable Disqus.
     avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
     footercontent = "I am all." # Add footer content
-    fixedbarContent = "Edit this" # Add fixedbar content
-    fixedbarContentAfter = "Edit this too" # Add fixedbar content after click
+    fixedbarContent = "Click for a surprise" # Add fixedbar content
+    fixedbarContentAfter = "SURPRISE" # Add fixedbar content after click
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = false
