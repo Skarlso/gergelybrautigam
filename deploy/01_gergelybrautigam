@@ -2,13 +2,15 @@ server {
     server_name gergelybrautigam.com;
     listen 9090;
     root /var/www/html/gergelybrautigam;
+    rewrite ^([^.]*[^/])$ $1/ permanent;
+    port_in_redirect off;
     location / {
     }
     location ~* \.(?:css|js)$ {
         access_log off;
         #expires 7d;
         add_header Cache-Control public;
-        try_files $uri /$uri/ /$1/$2;
+        try_files $uri $uri/ /$1/$2;
     }
     location /img/ {
         autoindex on;
