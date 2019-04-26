@@ -11,6 +11,9 @@ description = "about"
 * [Cronohub](https://github.com/cronohub/cronohub)
 * [Yogsothoth](https://github.com/Skarlso/yogsothoth)
 * [Google Auth Example Project](https://github.com/Skarlso/google-oauth-go-sample)
+* [Kubernetes Face Recognition App](https://github.com/Skarlso/kube-cluster-sample)
+* [Drone Flying with Go](https://github.com/Skarlso/drone-demo/)
+* [Effrit](https://github.com/Skarlso/effrit)
 * A great many other project on my github page.
 
 # Open Source contributions
