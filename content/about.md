@@ -27,6 +27,7 @@ description = "about"
 
 # Meetups / Talks / Presentations
 
+* GopherCon UK (2019) -- [Robotics With Go is a Breeze](https://www.youtube.com/watch?v=mtDX7FOD2Rw&t=1s)
 * Vday -- Jenkins Best Practices [Slides](http://www.slideshare.net/GergelyBrautigam/jenkins-best-practices-meetup-slides).
 * Several Go and DevOps meetups in Budapest
 	* TODO list them...

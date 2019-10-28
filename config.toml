@@ -25,7 +25,7 @@ disqusShortname = "hannibalDisqus" # Enable or disable Disqus.
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = false
-    hideCopyright = false
+    hideCopyright = true
 
     # Custom CSS
     custom_css = []
