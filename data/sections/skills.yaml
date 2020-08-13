@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  icon: "images/skills/kubernetes.png"
+  summary: "Made my own Raspberry Pi Kubernetes cluster, read Kubernetes up and running and been working with Kubernetes professionally over the past year."
+  url: "https://kubernetes.io/"
+
+- name: Go Development
+  icon: "images/skills/go.png"
+  summary: "I've been working with Go since 2015 mostly on open source projects and the language itself. I've been an professional Go developer since 2019."
+  url: "https://golang.org/"
+
+- name: Cloud Computing
+  icon: "images/skills/cloud.png"
+  summary: "I worked and am working with all major cloud providers in one way or another. GCP, Azure, AWS, DigitalOcean. I even wrote a general tool which utilizes the api of these."
+
+- name: Docker
+  icon: "images/skills/docker.svg"
+  summary: "I worked with and on Docker since 2014. I gave several talks using Docker and also have a 2 days workshop introducing and using Docker."
+  url: "https://www.docker.com/"
+
+- name: Prometheus
+  icon: "images/skills/prometheus.png"
+  summary: "I recently started using Prometheus professionally and reading Prometheus up and running and learning PromQL. I set up some alerts and created my own metrics with Go instrumentation."
+  url: "https://prometheus.io/"
+
+- name: Linux
+  icon: "images/skills/linux.png"
+  summary: "Been using Linux since forever. I started out with Debian and Manjaro is my distribution of choice now-a-days."
+
+- name: Git
+  icon: "images/skills/git.png"
+  summary: "Serious git user since 2014-ish"
+  url: "https://git-scm.com/"
+
+- name: Algorithms
+  icon: "images/skills/puzzles.png"
+  summary: "My passion is solving puzzles like adventofcode.com and leetcode.com."

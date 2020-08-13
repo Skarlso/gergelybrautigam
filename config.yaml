@@ -1,0 +1,74 @@
+baseURL: https://gergelybrautigam.com
+languageCode: en-us
+title: "Gergely Brautigam"
+theme: "toha"
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# Enable Google Analytics
+googleAnalytics: UA-69463020-1
+
+# Enable Disqus forum
+disqusShortname: hannibalDisqus
+
+# Enable global emoji support
+enableEmoji: true
+
+# Custom parameters
+params:
+  # Copyright Notice
+  copyright: © 2020 Copyright.
+
+  # Meta description for your site.  This will help the search engines to find your site.
+  description: General information about Gergely Brautigam. 
+
+  # background image of the landing page
+  background: "images/background.jpg"
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # It will be default to the theme logos if not provided.
+  logo:
+    main: /assets/images/main-logo.png
+    inverted: /assets/images/inverted-logo.png
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/skarlso/gergelybrautigam
+
+  # specify whether you want to write blog post or not
+  enableBlogPost: false
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: false
+
+  # specify the list of custom menus that you want to show in the top navbar.
+  # they will be separated by a divider from the main menus.
+  customMenus: []
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: false
+
+  # some information about you
+  author:
+    name: "Gergely Brautigam"
+    nickname: "Skarlso"
+    image: "images/avatar.jpg"
+    # give your some contact information. they will be used in the footer
+    contactInfo:
+      email: "gergely@gergelybrautigam.com"
+      phone: ""
+    # a summary of what you do
+    summary:
+    - I am a Cloud Engineer
+    - I work with Go and Kubernetes
+    - I love contributing to Open-source software

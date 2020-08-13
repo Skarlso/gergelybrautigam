@@ -1,0 +1,81 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Epam Systems
+    url: "https://www.epam.com/"
+    location: Budapest
+    # company overview
+    overview: EPAM Systems, Inc. is a US company that specializes in product development, digital platform engineering, and digital and product design agency. 
+  positions:
+  - designation: Tester, Test Engineer, Software Engineer In Test, Senior Software Tester
+    start: May 2004
+    end: Feb 2012
+    responsibilities:
+    - Designing and running test cases and complex test suites and automated frameworks
+    - Designing, writing and maintaining a C# based automation framework
+    - Ensuring product quality with no compromise
+    - Coming up with various ways of breaking the system
+
+- company:
+    name: Camelot
+    url: "https://www.national-lottery.co.uk/"
+    location: London
+    overview: The biggest lottery retailer in the UK. 
+  positions:
+  - designation: Software Engineer in Test
+    start: March 2012
+    end: May 2015
+    responsibilities:
+    - Writing and maintaining a complex testing framework for gambling games
+    - Designing tests
+    - Later on I would go into build engineering using Packer, Puppet, Chef and linux shell magic.
+
+- company:
+    name: ChemAxon
+    url: "https://chemaxon.com/"
+    location: Budapest
+    overview: Software solutions and services for chemistry & biology
+  positions:
+  - designation: Build Engineer
+    start: May 2015
+    end: Feb 2016
+    responsibilities:
+    - Handling infrastructure for a variaty of services and software using puppet, packer, jenkins, go, docker and a mirriad of other tools and services
+    - Creating images and testing frameworks for different teams with different products
+
+- company:
+    name: Cheppers
+    url: "https://cheppers.com/"
+    location: Budapest
+    overview: Development and design company. Also has a rad cloud engineer team.
+  positions:
+  - designation: Cloud Engineer
+    start: Feb 2016
+    end: Nov 2019
+    responsibilities:
+    - Creating a cloud based hosting framework for a mirriad of customers and millions of websites for a company called Acquia
+    - Working with US based teams and collaborating on a complex hosting infrastructure written in PHP and Ruby
+    - Solving customer issues
+
+- company:
+    name: ArangoDB
+    url: "https://arangodb.com/"
+    location: Budapest
+    overview: The best multi-model database in the world. 
+  positions:
+  - designation: Go Developer
+    start: Nov 2019
+    responsibilities:
+    - Fully remote work on Oasis (https://cloud.arangodb.com/)
+    - Design and maintane a complex database hosting solution using Kubernetes on multiple Cloud providers (AWS, GCP, Azure)
+    - Writing CRDs and digging around in Kubernetes' API
+
