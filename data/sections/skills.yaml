@@ -37,6 +37,7 @@ skills:
 - name: Linux
   icon: "images/skills/linux.png"
   summary: "Been using Linux since forever. I started out with Debian and Manjaro is my distribution of choice now-a-days."
+  url: "http://manjaro.org/"
 
 - name: Git
   icon: "images/skills/git.png"
@@ -46,3 +47,4 @@ skills:
 - name: Algorithms
   icon: "images/skills/puzzles.png"
   summary: "My passion is solving puzzles like adventofcode.com and leetcode.com."
+  url: "https://adventofcode.com/"
