@@ -44,10 +44,10 @@ softSkills:
 - name: Collaboration 
   percentage: 85
   color: blue
-- name: Software development
+- name: Development
   percentage: 90
   color: yellow
-- name: Cloud engineering
+- name: Cloud Engineer
   percentage: 85
   color: pink
 - name: Fast learner
