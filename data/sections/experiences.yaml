@@ -5,7 +5,7 @@ section:
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
@@ -14,7 +14,7 @@ experiences:
     url: "https://www.epam.com/"
     location: Budapest
     # company overview
-    overview: EPAM Systems, Inc. is a US company that specializes in product development, digital platform engineering, and digital and product design agency. 
+    overview: EPAM Systems, Inc. is a US company that specializes in product development, digital platform engineering, and digital and product design agency.
   positions:
   - designation: Tester, Test Engineer, Software Engineer In Test, Senior Software Tester
     start: May 2004
@@ -29,7 +29,7 @@ experiences:
     name: Camelot
     url: "https://www.national-lottery.co.uk/"
     location: London
-    overview: The biggest lottery retailer in the UK. 
+    overview: The biggest lottery retailer in the UK.
   positions:
   - designation: Software Engineer in Test
     start: March 2012
@@ -49,7 +49,7 @@ experiences:
     start: May 2015
     end: Feb 2016
     responsibilities:
-    - Handling infrastructure for a variaty of services and software using puppet, packer, jenkins, go, docker and a mirriad of other tools and services
+    - Handling infrastructure for a variety of services and software using puppet, packer, jenkins, go, docker and a mirriad of other tools and services
     - Creating images and testing frameworks for different teams with different products
 
 - company:
@@ -70,12 +70,26 @@ experiences:
     name: ArangoDB
     url: "https://arangodb.com/"
     location: Budapest
-    overview: The best multi-model database in the world. 
+    overview: The best multi-model database in the world.
   positions:
   - designation: Go Developer
     start: Nov 2019
+    end: Dec 2020
     responsibilities:
     - Fully remote work on Oasis (https://cloud.arangodb.com/)
-    - Design and maintane a complex database hosting solution using Kubernetes on multiple Cloud providers (AWS, GCP, Azure)
+    - Design and maintain a complex database hosting solution using Kubernetes on multiple Cloud providers (AWS, GCP, Azure)
     - Writing CRDs and digging around in Kubernetes' API
+
+- company:
+    name: IBM
+    url: "https://cloud.ibm.com/"
+    location: Budapest
+    overview: Hosting solutions for a multitude of databases.
+  positions:
+  - designation: Software Engineer
+    start: Jan 2021
+    responsibilities:
+    - Fully remove work on Cloud solutions for all sorts of databases
+    - Handling complex workflows fog managing a multitude of databases on a Kubernetes based infrastructure
+    - Managing Kubernetes resources and a gazillion operators and CRDs
 
