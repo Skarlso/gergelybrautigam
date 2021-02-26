@@ -89,7 +89,7 @@ experiences:
   - designation: Software Engineer
     start: Jan 2021
     responsibilities:
-    - Fully remove work on Cloud solutions for all sorts of databases
-    - Handling complex workflows fog managing a multitude of databases on a Kubernetes based infrastructure
-    - Managing Kubernetes resources and a gazillion operators and CRDs
+    - Fully remote work on Cloud solutions for all sorts of databases
+    - Handling complex workflows of managing these databases on a Kubernetes based infrastructure
+    - Managing Kubernetes resources such as, operators, CRD definitions and various deployments of all kind 
 
