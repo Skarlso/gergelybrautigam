@@ -12,7 +12,7 @@ section:
 skills:
 - name: Kubernetes
   icon: "images/skills/kubernetes.png"
-  summary: "Made my own Raspberry Pi Kubernetes cluster, read Kubernetes up and running and been working with Kubernetes professionally over the past year."
+  summary: "Made my own Raspberry Pi Kubernetes cluster, read Kubernetes up and running and been working with Kubernetes professionally since 2019."
   url: "https://kubernetes.io/"
 
 - name: Go Development

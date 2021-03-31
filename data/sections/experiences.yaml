@@ -88,8 +88,20 @@ experiences:
   positions:
   - designation: Software Engineer
     start: Jan 2021
+    end: March 2021
     responsibilities:
     - Fully remote work on Cloud solutions for all sorts of databases
     - Handling complex workflows of managing these databases on a Kubernetes based infrastructure
-    - Managing Kubernetes resources such as, operators, CRD definitions and various deployments of all kind 
+    - Managing Kubernetes resources such as, operators, CRD definitions and various deployments of all kind
 
+
+- company:
+    name: WeaveWorks
+    url: "https://www.weave.works/"
+    location: Budapest
+    overview: Automate Enterprise Kubernetes the GitOps way
+  positions:
+  - designation: Software Engineer
+    start: March 2021
+    responsibilities:
+    - TBD

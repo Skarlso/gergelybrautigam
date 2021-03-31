@@ -9,8 +9,8 @@ section:
 designation: Cloud Engineer
 # your company information
 company:
-  name: ArangoDB
-  url: "https://arangodb.com"
+  name: WeaveWorks
+  url: "https://www.weave.works/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
@@ -41,7 +41,7 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Collaboration 
+- name: Collaboration
   percentage: 85
   color: blue
 - name: Development
