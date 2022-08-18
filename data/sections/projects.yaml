@@ -28,44 +28,57 @@ projects:
   logo: images/projects/cronohub.png
   role: Owner
   repo: https://github.com/cronohub/cronohub
-  summary: Archive from anywhere to anywhere using the power of plugins. 
+  summary: Archive from anywhere to anywhere using the power of plugins.
   tags: ["owner","cronohub","python"]
 - name: Yogsothoth
   logo: images/projects/yogsothoth.png
   role: Owner
   repo: https://github.com/Skarlso/yogsothoth
-  summary: Is a library providing the ability to handle Digital Ocean assets together. 
+  summary: Is a library providing the ability to handle Digital Ocean assets together.
   tags: ["owner","digitalocean","go"]
 - name: Google Oauth Example Project
   logo: images/projects/google.png
   role: Owner
   repo: https://github.com/Skarlso/google-oauth-go-sample
-  summary: A sample projecto on how to do Google Auth in Go using a web-app. 
+  summary: A sample projecto on how to do Google Auth in Go using a web-app.
   tags: ["owner","google","go"]
 - name: Distributed Face-Recognition On Kubernetes
   logo: images/projects/face-recog.png
   role: Owner
   repo: https://github.com/Skarlso/kube-cluster-sample
-  summary: A distributed face-recognition app which is deployed on a Kubernetes cluster. 
+  summary: A distributed face-recognition app which is deployed on a Kubernetes cluster.
   tags: ["owner","kubernetes","go"]
 - name: Effrit
   logo: images/projects/effrit.png
   role: Owner
   repo: https://github.com/Skarlso/effrit
-  summary: Go Efferent and Afferent package metric calculator. 
+  summary: Go Efferent and Afferent package metric calculator.
   tags: ["owner","effrit","go"]
 - name: Staple
   logo: images/projects/staple.png
   role: Owner
   repo: https://github.com/staple-org/staple
-  summary: Staple is a Queue based bookmark system with a Go backend and a React frontend complete with Kubernetes deployment. 
+  summary: Staple is a Queue based bookmark system with a Go backend and a React frontend complete with Kubernetes deployment.
   tags: ["owner","staple","go","kubernetes"]
+- name: Dependabot Bundler
+  role: Owner
+  repo: https://github.com/Skarlso/dependabot-bundler
+  summary: A bundler for dependabot PRs
+  tags: ["owner","dependabot","go"]
 # Contributions
 - name: Go
   logo: images/projects/go.png
   role: Contributor
   timeline: "March 2018 - Present"
   repo: https://github.com/golang/go # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Go programming language.
+  tags: ["contributions", "go"]
+- name: CAPA ( Cluster API Provider AWS )
+  logo: images/projects/go.png
+  role: Contributor
+  timeline: "Jan 2022 - Present"
+  repo: https://github.com/kubernetes-sigs/cluster-api-provider-aws # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Go programming language.
   tags: ["contributions", "go"]
@@ -80,7 +93,7 @@ projects:
   role: Contributor
   timeline: "Apr 2019 - 2020"
   repo: https://github.com/weaveworks/footloose
-  summary: footloose creates containers that look like virtual machines. Those containers run systemd as PID 1 and a ssh daemon that can be used to login into the container. 
+  summary: footloose creates containers that look like virtual machines. Those containers run systemd as PID 1 and a ssh daemon that can be used to login into the container.
   tags: ["contributions", "go"]
 - name: JSONPath
   role: Contributor, Member
@@ -95,15 +108,21 @@ projects:
   url: "https://www.youtube.com/watch?v=mtDX7FOD2Rw&t=1s"
   summary: Robotics with Go is a breeze
   tags: ["talks"]
-- name: It's not illegal to cook infrastructure 
+- name: It's not illegal to cook infrastructure
   role: Speaker
   timeline: "2018"
   url: "https://www.youtube.com/watch?v=xHR3_0JxQMk&t=912s"
-  summary: 
+  summary:
   tags: ["talks"]
 - name: Jenkins Best Practices
   role: Speaker
   timeline: "2016"
   url: "https://www.slideshare.net/GergelyBrautigam/jenkins-best-practices-meetup-slides"
   summary: Jenkins Best Practices -- VDay
+  tags: ["talks"]
+- name: Distributed Face-Recognition on Kubernetes with Go and Python
+  role: Speaker
+  timeline: "2021"
+  url: "https://www.youtube.com/watch?v=ylhVjprTkOI"
+  summary: Talk about Kubernetes Distributed Face recognition project
   tags: ["talks"]
