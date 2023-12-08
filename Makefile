@@ -4,4 +4,4 @@
 
 
 build:
-	hugo
+	hugo -d docs
