@@ -11,6 +11,16 @@ section:
 
 experiences:
 - company:
+    name: Kubermatic
+    url: "https://www.kubermatic.com/"
+    location: Budapest
+    overview: Automate Kubernetes deployments
+  positions:
+  - designation: Software Engineer
+    start: March 2024
+    responsibilities:
+    - TBD
+- company:
     name: WeaveWorks
     url: "https://www.weave.works/"
     location: Budapest
@@ -18,6 +28,7 @@ experiences:
   positions:
   - designation: Software Engineer
     start: March 2021
+    end: Jan 2024
     responsibilities:
     - Contributor to eksctl https://github.com/weaveworks/eksctl
     - Kubernetes based innovation and projects

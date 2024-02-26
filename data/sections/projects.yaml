@@ -74,6 +74,13 @@ projects:
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Go programming language.
   tags: ["contributions", "go"]
+- name: ExternalSecrets
+  logo: images/projects/go.png
+  role: Maintainer
+  timeline: "Nov 2023 - Present"
+  repo: https://github.com/external-secrets/external-secrets
+  summary: External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
+  tags: ["contributions", "go", "kubernetes"]
 - name: CAPA ( Cluster API Provider AWS )
   logo: images/projects/go.png
   role: Contributor

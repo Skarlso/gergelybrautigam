@@ -9,8 +9,8 @@ section:
 designation: Cloud Engineer
 # your company information
 company:
-  name: WeaveWorks
-  url: "https://www.weave.works/"
+  name: Kubermatic
+  url: "https://www.kubermatic.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
