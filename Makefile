@@ -4,7 +4,7 @@
 
 
 build:
-	hugo --minify --cleanDestinationDir -d docs
+	hugo --minify --gc --cleanDestinationDir
 
 serve:
 	hugo server
