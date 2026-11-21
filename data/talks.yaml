@@ -1,0 +1,43 @@
+talks:
+- year: 2026
+  title: "Choose Your Own Adventure: Building Developer Experiences with KCP"
+  event: "KCD UK, Edinburgh"
+  note: "recording not up yet"
+  links:
+  - label: agenda
+    url: "https://ckranz.github.io/kcduk/"
+- year: 2026
+  title: "Building Sovereign Software Supply Chains with Open Component Model (OCM)"
+  event: "KCD Budapest"
+  note: "recording not up yet"
+  links:
+  - label: agenda
+    url: "https://kcdbudapest.hu/agenda/#session-1287153"
+  - label: demo
+    url: "https://github.com/Skarlso/kcd-budapest-2026-sovereign-cloud-deployment-demo"
+- year: 2025
+  title: "Secret Rotation with External Secrets Operator"
+  event: "KCD Budapest"
+  links:
+  - label: watch
+    url: "https://www.youtube.com/watch?v=N8T-HU8P3Ko"
+- year: 2021
+  title: "Distributed Face-Recognition on Kubernetes with Go and Python"
+  links:
+  - label: watch
+    url: "https://www.youtube.com/watch?v=ylhVjprTkOI"
+- year: 2019
+  title: "Robotics with Go"
+  links:
+  - label: watch
+    url: "https://www.youtube.com/watch?v=mtDX7FOD2Rw"
+- year: 2018
+  title: "It's not illegal to cook infrastructure"
+  links:
+  - label: watch
+    url: "https://www.youtube.com/watch?v=xHR3_0JxQMk"
+- year: 2016
+  title: "Jenkins Best Practices"
+  links:
+  - label: slides
+    url: "https://www.slideshare.net/GergelyBrautigam/jenkins-best-practices-meetup-slides"

@@ -1,0 +1,47 @@
+experience:
+- company: Kubermatic
+  url: "https://www.kubermatic.com/"
+  role: Software Engineer
+  from: 2024
+  summary: "Go and Kubernetes. Working closely with SAP on the Open Component Model."
+- company: Weaveworks
+  role: Software Engineer
+  from: 2021
+  to: 2024
+  summary: "eksctl, Flux, Weave GitOps and Cluster API Provider AWS."
+- company: IBM
+  url: "https://cloud.ibm.com/"
+  role: Software Engineer
+  from: 2021
+  to: 2021
+  summary: "Managed databases on Kubernetes: operators, CRDs and deployments of all kinds."
+- company: ArangoDB
+  url: "https://arangodb.com/"
+  role: Go Developer
+  from: 2019
+  to: 2020
+  summary: "Built ArangoDB Oasis, a multi-tenant managed database platform on AWS, GCP and Azure."
+- company: Cheppers
+  url: "https://cheppers.com/"
+  role: Cloud Engineer
+  from: 2016
+  to: 2019
+  summary: "Hosting infrastructure for Acquia: over 15000 servers on AWS, in PHP and Ruby."
+- company: ChemAxon
+  url: "https://chemaxon.com/"
+  role: Build Engineer
+  from: 2015
+  to: 2016
+  summary: "Build and deployment infrastructure with Puppet, Packer, Jenkins, Go and Docker."
+- company: Camelot
+  url: "https://www.national-lottery.co.uk/"
+  role: Software Engineer in Test
+  from: 2012
+  to: 2015
+  summary: "Test frameworks for lottery games in London, then build engineering with Packer, Puppet and Chef."
+- company: EPAM Systems
+  url: "https://www.epam.com/"
+  role: Tester to Senior Software Tester
+  from: 2004
+  to: 2012
+  summary: "Test design, test suites and a C# automation framework."

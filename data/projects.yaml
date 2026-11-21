@@ -1,0 +1,55 @@
+projects:
+- name: crd-to-sample-yaml
+  summary: "Generate a sample YAML file from a CRD and view it rendered on a nice website."
+  site: "https://crdtoyaml.com/"
+  repo: "https://github.com/Skarlso/crd-to-sample-yaml"
+  tags: [go, kubernetes]
+- name: Adventure Voter
+  summary: "A choose-your-own-adventure presentation framework. The audience votes, the talk follows."
+  site: "https://adventure-voter.github.io/"
+  repo: "https://github.com/Skarlso/adventure-voter"
+  tags: [go, talks]
+- name: crd-bootstrap
+  summary: "Continuously reconcile CRDs in the cluster, with template validation before apply."
+  repo: "https://github.com/Skarlso/crd-bootstrap"
+  tags: [go, kubernetes]
+- name: Kube Project
+  summary: "A distributed face recognition service on Kubernetes. A sample app to bring distributed software closer to starting developers."
+  site: "https://kube-project.github.io/"
+  repo: "https://github.com/kube-project"
+  tags: [go, python, kubernetes]
+- name: DaggerStrahd
+  summary: "The Curse of Strahd module ported over to the Daggerheart play system."
+  site: "https://daggerstrahd.github.io/"
+  tags: [ttrpg]
+- name: devstats
+  summary: "A card for your GitHub README."
+  site: "https://devstats.app/"
+  repo: "https://github.com/Skarlso/devstats"
+  tags: [go]
+- name: pr-watcher
+  summary: "A Claude Code mod that keeps watching your pull requests in a pane next to the chat."
+  repo: "https://github.com/Skarlso/pr-watcher"
+  tags: [ai]
+- name: Google OAuth Go sample
+  summary: "A sample for doing Google OAuth in Go with a web app."
+  repo: "https://github.com/Skarlso/google-oauth-go-sample"
+  tags: [go]
+
+attic:
+- name: Furnace
+  url: "https://github.com/go-furnace/go-furnace"
+- name: Staple
+  url: "https://github.com/staple-org/staple"
+- name: Krok
+  url: "https://github.com/krok-o/krok"
+- name: Effrit
+  url: "https://github.com/Skarlso/effrit"
+- name: Cronohub
+  url: "https://github.com/cronohub/cronohub"
+- name: Yogsothoth
+  url: "https://github.com/Skarlso/yogsothoth"
+- name: Dependabot Bundler
+  url: "https://github.com/Skarlso/dependabot-bundler"
+- name: AWS Minecraft
+  url: "https://github.com/Skarlso/aws_minecraft"

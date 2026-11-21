@@ -1,0 +1,36 @@
+roles:
+- name: External Secrets Operator
+  role: Maintainer
+  since: "since 2023"
+  url: "https://github.com/external-secrets/external-secrets"
+  summary: "Reads secrets from stores like AWS Secrets Manager and injects them into the cluster as Kubernetes Secrets."
+- name: kro
+  role: Reviewer
+  url: "https://github.com/kubernetes-sigs/kro"
+  summary: "Kube Resource Orchestrator."
+- name: Open Component Model
+  role: Day job
+  url: "https://ocm.software/"
+  summary: "A technology-agnostic way to describe, sign and deliver software components. I work on it at Kubermatic, together with SAP."
+- name: Cluster API Provider AWS
+  role: Emeritus
+  url: "https://github.com/kubernetes-sigs/cluster-api-provider-aws"
+  summary: "Self-managed and EKS Kubernetes clusters on AWS through Cluster API. Once a maintainer, now emeritus."
+- name: Kubernetes and Kubernetes SIGs
+  role: Org member
+  url: "https://github.com/kubernetes"
+- name: Go
+  role: Contributor
+  since: "since 2018"
+  url: "https://github.com/golang/go"
+  summary: "The Go programming language."
+
+earlier:
+- name: eksctl
+  url: "https://github.com/eksctl-io/eksctl"
+- name: Gaia
+  url: "https://github.com/gaia-pipeline/gaia"
+- name: Footloose
+  url: "https://github.com/weaveworks/footloose"
+- name: JSONPath
+  url: "https://github.com/joshbuddy/jsonpath"

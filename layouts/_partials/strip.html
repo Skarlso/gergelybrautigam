@@ -1,0 +1,13 @@
+<div class="strip" data-pose="{{ .pose | default "wave" }}" data-say="{{ .say }}">
+  <div class="floor"></div>
+  {{ with .signs }}
+  <nav aria-label="Sections">
+    <ol class="signs" style="--n: {{ sub (len .) 1 }}">
+      {{ range $i, $s := . }}
+      <li style="--i: {{ $i }}"><a href="#{{ $s.id }}" data-pose="{{ $s.pose }}" data-say="{{ $s.say }}">{{ $s.label }}</a></li>
+      {{ end }}
+    </ol>
+  </nav>
+  {{ end }}
+  <canvas aria-hidden="true"></canvas>
+</div>

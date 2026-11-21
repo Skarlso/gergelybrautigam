@@ -1,0 +1,13 @@
+{{ define "title" }}Lost at sea | {{ site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="hero lost">
+  <div class="hero-text">
+    <h1><mark>404</mark></h1>
+    <p class="intro">Nothing on this page. The stick figure looked everywhere.</p>
+    <ul class="chips"><li><a href="{{ "/" | relURL }}">Back to shore</a></li></ul>
+  </div>
+</section>
+{{ end }}
+
+{{ define "strip" }}{{ partial "strip.html" (dict "pose" "lookback" "say" "hm?") }}{{ end }}

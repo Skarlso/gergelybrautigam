@@ -1,0 +1,123 @@
+{{ define "head" }}
+{{ $a := site.Params.author }}
+{{ $same := slice }}
+{{ range site.Params.links }}{{ $same = $same | append .url }}{{ end }}
+{{ $ld := dict "@context" "https://schema.org" "@type" "Person" "name" $a.name "alternateName" $a.nickname "url" site.BaseURL "image" ($a.image | absURL) "jobTitle" $a.jobTitle "worksFor" (dict "@type" "Organization" "name" $a.company) "sameAs" $same }}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ define "main" }}
+{{ $a := site.Params.author }}
+<section id="hello" class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <mark>Gergely</mark>.</h1>
+    <p class="aka">
+      <svg viewBox="0 0 60 40" aria-hidden="true"><path d="M56 34C40 36 20 30 9 9M9 9l1 11M9 9l10 4"/></svg>
+      also answers to {{ $a.nickname }}
+    </p>
+    <div class="intro">{{ .Content }}</div>
+    <ul class="chips">
+      {{ range site.Params.links }}
+      <li><a href="{{ .url }}" rel="me noopener">{{ .name }}</a></li>
+      {{ end }}
+      <li><a href="mailto:{{ $a.email }}">Email</a></li>
+      <li><a href="{{ site.Params.resume | relURL }}">Resume</a></li>
+    </ul>
+  </div>
+  <figure class="polaroid">
+    <img src="{{ $a.image | relURL }}" alt="{{ $a.name }} working on a laptop" width="400" height="400">
+    <figcaption>{{ $a.nickname }}</figcaption>
+  </figure>
+</section>
+
+<section id="open-source">
+  <h2><span>Open source</span> <small>where my PRs go</small></h2>
+  <ul class="roles">
+    {{ range hugo.Data.opensource.roles }}
+    <li>
+      <span class="stamp">{{ .role }}</span>
+      <div>
+        <h3><a href="{{ .url }}" rel="noopener">{{ .name }}</a>{{ with .since }} <small>{{ . }}</small>{{ end }}</h3>
+        {{ with .summary }}<p>{{ . | markdownify }}</p>{{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  {{ with hugo.Data.opensource.earlier }}
+  <p class="attic">Earlier stops: {{ range $i, $e := . }}{{ if $i }}, {{ end }}<a href="{{ $e.url }}" rel="noopener">{{ $e.name }}</a>{{ end }}.</p>
+  {{ end }}
+</section>
+
+<section id="projects">
+  <h2><span>Things I built</span> <small>scratching my own itches</small></h2>
+  <ul class="cards">
+    {{ range hugo.Data.projects.projects }}
+    <li class="card">
+      <h3>{{ .name }}</h3>
+      <p>{{ .summary | markdownify }}</p>
+      <p class="card-foot">
+        <span class="tags">{{ range .tags }}<span>#{{ . }}</span> {{ end }}</span>
+        <span class="card-links">
+          {{ with .site }}<a href="{{ . }}" rel="noopener">site</a>{{ end }}
+          {{ with .repo }}<a href="{{ . }}" rel="noopener">code</a>{{ end }}
+        </span>
+      </p>
+    </li>
+    {{ end }}
+  </ul>
+  {{ with hugo.Data.projects.attic }}
+  <p class="attic">From the attic: {{ range $i, $e := . }}{{ if $i }}, {{ end }}<a href="{{ $e.url }}" rel="noopener">{{ $e.name }}</a>{{ end }}.</p>
+  {{ end }}
+</section>
+
+<section id="talks">
+  <h2><span>Talks</span> <small>sometimes they let me on stage</small></h2>
+  <ol class="talks">
+    {{ range hugo.Data.talks.talks }}
+    <li>
+      <span class="year">{{ .year }}</span>
+      <div>
+        <h3>{{ .title }}</h3>
+        <p>
+          {{ with .event }}<span class="event">{{ . }}</span>{{ end }}
+          {{ range .links }}<a href="{{ .url }}" rel="noopener">{{ .label }}</a> {{ end }}
+          {{ with .note }}<span class="note">{{ . }}</span>{{ end }}
+        </p>
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+
+<section id="course">
+  <h2><span>The course</span> <small>work in progress</small></h2>
+  {{ with hugo.Data.course }}
+  <div class="card wip">
+    <span class="stamp">{{ .status }}</span>
+    <h3>{{ .title }}</h3>
+    <p>{{ .summary | markdownify }}</p>
+    <p class="card-foot"><span class="card-links">{{ range .links }}<a href="{{ .url }}" rel="noopener">{{ .label }}</a>{{ end }}</span></p>
+  </div>
+  {{ end }}
+</section>
+
+<section id="path">
+  <h2><span>The path so far</span> <small>how I got here</small></h2>
+  <ol class="path">
+    {{ range hugo.Data.experience.experience }}
+    <li>
+      <span class="when">{{ .from }}{{ if ne .from .to }} &rarr; {{ .to | default "now" }}{{ end }}</span>
+      <h3>{{ if .url }}<a href="{{ .url }}" rel="noopener">{{ .company }}</a>{{ else }}{{ .company }}{{ end }} <small>{{ .role }}</small></h3>
+      <p>{{ .summary | markdownify }}</p>
+    </li>
+    {{ end }}
+  </ol>
+</section>
+
+<section id="ahoy" class="ahoy">
+  <h2><span>Ahoy</span> <small>say hi</small></h2>
+  <p class="big"><a href="mailto:{{ $a.email }}">{{ $a.email }}</a></p>
+  <p>Or find me on {{ range $i, $l := site.Params.links }}{{ if $i }}, {{ end }}<a href="{{ $l.url }}" rel="noopener">{{ $l.name }}</a>{{ end }}.</p>
+  <p class="fine">&copy; {{ now.Year }} {{ $a.name }}. Built with Hugo and one stick figure. Poke it.</p>
+</section>
+{{ end }}

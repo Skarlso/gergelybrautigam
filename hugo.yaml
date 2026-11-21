@@ -1,0 +1,63 @@
+baseURL: https://gergelybrautigam.com/
+locale: en-us
+title: "Gergely Brautigam"
+
+disableKinds: [taxonomy, term, section, rss]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: "Gergely Brautigam (Skarlso): Go and Kubernetes engineer, External Secrets Operator maintainer, speaker."
+  author:
+    name: "Gergely Brautigam"
+    nickname: "Skarlso"
+    image: "images/avatar.jpg"
+    email: "gergely@gergelybrautigam.com"
+    jobTitle: "Software Engineer"
+    company: "Kubermatic"
+  resume: "files/resume.pdf"
+
+  links:
+  - name: GitHub
+    url: "https://github.com/Skarlso"
+  - name: Blog
+    url: "https://skarlso.github.io/"
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/brautigamgergely/"
+  - name: Twitter
+    url: "https://twitter.com/Skarlso"
+
+  # The signposts along the bottom. "pose" is what the stick figure does there,
+  # "say" is its speech bubble. Poses live in assets/js/buddy.js.
+  signs:
+  - id: hello
+    label: hi
+    pose: wave
+    say: "hi!"
+  - id: open-source
+    label: oss
+    pose: helm
+    say: "steady as she goes"
+  - id: projects
+    label: built
+    pose: hammer
+    say: "tink tink"
+  - id: talks
+    label: talks
+    pose: mic
+    say: "is this thing on?"
+  - id: course
+    label: course
+    pose: teach
+    say: "soon!"
+  - id: path
+    label: path
+    pose: lookback
+    say: "long way, huh"
+  - id: ahoy
+    label: ahoy
+    pose: sail
+    say: "ahoy!"

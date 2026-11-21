@@ -1,7 +1,10 @@
 .DEFAULT_GOAL := build
 
-.PHONY: build
+.PHONY: build serve
 
 
 build:
-	hugo -d docs
+	hugo --minify --cleanDestinationDir -d docs
+
+serve:
+	hugo server
